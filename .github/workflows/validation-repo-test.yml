@@ -42,13 +42,19 @@ jobs:
       with:
         github_token: "${{ secrets.GITHUB_TOKEN }}"
     
-    - name: 'Generate validation result in html '
-      id: dashboard
-      uses: GH-ACE/issue-dashboard@v1
+    # - name: 'Generate validation result in html '
+    #   id: dashboard
+    #   uses: GH-ACE/issue-dashboard@v1
+    #   with:
+    #     config: ./dashboard-config/validation-repo-config.yml
+    #     configType: file
+    #     token: ${{ github.token }}
+    - uses: actions/setup-python@v2
       with:
-        config: ./dashboard-config/validation-repo-config.yml
-        configType: file
-        token: ${{ github.token }}
+        python-version: '3.9.0-alpha - 3.9.0' # SemVer's version range syntax
+    - run: |
+        pip install json2table
+        python ./json2html.py
 
     - name: validation result and  Commit file for html
       id: commit2
