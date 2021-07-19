@@ -3,8 +3,8 @@ output:
   format: html
   filename: 'docs/validation.html'
 setup: |
+    import * as fs from 'fs'
     userdata.result = async function(repo,checkName) {
-      import * as fs from 'fs'
       var fs = require('fs');
       var data = fs.readFileSync("index.json", "utf8");
       var validationData = JSON.parse(data);
