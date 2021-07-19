@@ -5,8 +5,7 @@ import json
 
 f = open('./index.json', encoding='utf-8')
   
-data = json.load(f)
-infoFromJson = json.loads(f)
+infoFromJson = json.load(f)
 build_direction = "LEFT_TO_RIGHT"
 table_attributes = {"style": "width:100%"}
 table = json2table.convert(infoFromJson, 
