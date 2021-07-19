@@ -1,24 +1,24 @@
 [
 	{
 		"repoName": "login",
-		"readmeChecks": "No",
+		"readmeChecks": "Yes",
 		"codeOwnerCheck": "No",
-		"nodeModulesCheck": "unknown",
-		"branchPermissionCheck": "unknown",
-		"releasesNodeModulesCheck": "unknown",
+		"nodeModulesCheck": "Yes",
+		"branchPermissionCheck": "No",
+		"releasesNodeModulesCheck": "Yes",
 		"vulnerabilityBotCheck": "No",
-		"issueTemplateCheck": "No",
-		"standardLabelsCheck": "No"
+		"issueTemplateCheck": "Yes",
+		"standardLabelsCheck": "Yes"
 	},
 	{
 		"repoName": "webapps-deploy",
-		"readmeChecks": "No",
-		"codeOwnerCheck": "No",
-		"nodeModulesCheck": "unknown",
-		"branchPermissionCheck": "unknown",
-		"releasesNodeModulesCheck": "unknown",
-		"vulnerabilityBotCheck": "No",
-		"issueTemplateCheck": "No",
-		"standardLabelsCheck": "No"
+		"readmeChecks": "Yes",
+		"codeOwnerCheck": "Yes",
+		"nodeModulesCheck": "Yes",
+		"branchPermissionCheck": "No",
+		"releasesNodeModulesCheck": "Yes",
+		"vulnerabilityBotCheck": "Yes",
+		"issueTemplateCheck": "Yes",
+		"standardLabelsCheck": "Yes"
 	}
 ]
