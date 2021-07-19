@@ -1,0 +1,24 @@
+[
+	{
+		"repoName": "login",
+		"readmeChecks": "No",
+		"codeOwnerCheck": "No",
+		"nodeModulesCheck": "unknown",
+		"branchPermissionCheck": "unknown",
+		"releasesNodeModulesCheck": "unknown",
+		"vulnerabilityBotCheck": "No",
+		"issueTemplateCheck": "No",
+		"standardLabelsCheck": "No"
+	},
+	{
+		"repoName": "webapps-deploy",
+		"readmeChecks": "No",
+		"codeOwnerCheck": "No",
+		"nodeModulesCheck": "unknown",
+		"branchPermissionCheck": "unknown",
+		"releasesNodeModulesCheck": "unknown",
+		"vulnerabilityBotCheck": "No",
+		"issueTemplateCheck": "No",
+		"standardLabelsCheck": "No"
+	}
+]
