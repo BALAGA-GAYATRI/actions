@@ -3,7 +3,7 @@
 import json2table
 import json
 
-f = open('./index.json',)
+f = open('./index.json', encoding='utf-8')
   
 data = json.load(f)
 infoFromJson = json.loads(f)
