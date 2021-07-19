@@ -41,3 +41,33 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: "${{ secrets.GITHUB_TOKEN }}"
+    
+    - name: 'Generate validation result in html '
+        id: dashboard
+        uses: GH-ACE/issue-dashboard@v1
+        with:
+          config: ./dashboard-config/validation-repo-config.yml
+          configType: file
+          token: ${{ github.token }}
+
+    - name: validation result and  Commit file for html
+      id: commit
+      continue-on-error: true
+      run: |
+           cat index.json
+           git config --local user.email "balaga-gayatri@github.com"
+           git config --local user.name "balaga-gayatri"
+           git pull
+           git add --all
+           if [-z "$(git status --porcelain)"]; then
+             echo "::set-output name=push::false"
+           else
+             git commit -m "Add changes" -a
+             echo "::set-output name=push::true"
+           fi
+      shell: bash
+    - name: Push changes
+      if: steps.commit.outputs.push == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: "${{ secrets.GITHUB_TOKEN }}"

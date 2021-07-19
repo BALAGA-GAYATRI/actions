@@ -1,1 +1,55 @@
-
+title: 'Issues detailed view'
+output:
+  format: html
+  filename: 'docs/validation.html'
+setup: |
+    userdata.result = async function(repo,checkName) {
+      var fs = require('fs');
+      var data = fs.readFileSync("index.json", "utf8");
+      var validationData = JSON.parse(data);
+      for(var i = 0; i < validationData.length; i++) {
+        var obj = validationData[i];
+        if(obj.repoName == repo){
+          if(obj[checkName]=='Yes')
+            return(🟢)
+          else
+            return(🔴)
+        }
+      }
+    }
+sections:
+- title: '' 
+  widgets:
+  - type: 'table'
+    headers:
+    - 'repoName'
+    - 'readmeChecks'
+    - 'codeOwnerCheck'
+    - 'nodeModulesCheck'
+    - 'branchPermissionCheck'
+    - 'releasesNodeModulesCheck'
+    - 'vulnerabilityBotCheck'
+    - 'issueTemplateCheck'
+    - 'standardLabelsCheck'
+    elements:
+    - - value: 'login'
+      - value: '{{ userdata.result("login","readmeChecks") }}'
+      - value: '{{ userdata.result("login","codeOwnerCheck") }}'
+      - value: '{{ userdata.result("login","nodeModulesCheck") }}'
+      - value: '{{ userdata.result("login","branchPermissionCheck") }}'
+      - value: '{{ userdata.result("login","releasesNodeModulesCheck") }}'
+      - value: '{{ userdata.result("login","vulnerabilityBotCheck") }}'
+      - value: '{{ userdata.result("login","issueTemplateCheck") }}'
+      - value: '{{ userdata.result("login","standardLabelsCheck") }}'
+    
+    - - value: 'webapps-deploy'
+      - value: '{{ userdata.result("webapps-deploy","readmeChecks") }}'
+      - value: '{{ userdata.result("webapps-deploy","codeOwnerCheck") }}'
+      - value: '{{ userdata.result("webapps-deploy","nodeModulesCheck") }}'
+      - value: '{{ userdata.result("webapps-deploy","branchPermissionCheck") }}'
+      - value: '{{ userdata.result("webapps-deploy","releasesNodeModulesCheck") }}'
+      - value: '{{ userdata.result("webapps-deploy","vulnerabilityBotCheck") }}'
+      - value: '{{ userdata.result("webapps-deploy","issueTemplateCheck") }}'
+      - value: '{{ userdata.result("webapps-deploy","standardLabelsCheck") }}'
+      
+      
