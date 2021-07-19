@@ -24,7 +24,6 @@ jobs:
       id: commit1
       continue-on-error: true
       run: |
-           npm install common.js
            cat index.json
            git config --local user.email "balaga-gayatri@github.com"
            git config --local user.name "balaga-gayatri"
