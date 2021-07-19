@@ -21,7 +21,7 @@ jobs:
         name: "index.json"
         json: "${{steps.checks_validation.outputs.validationResult}}"
     - name: validation result and  Commit file
-      id: commit
+      id: commit1
       continue-on-error: true
       run: |
            cat index.json
@@ -51,7 +51,7 @@ jobs:
         token: ${{ github.token }}
 
     - name: validation result and  Commit file for html
-      id: commit
+      id: commit2
       continue-on-error: true
       run: |
            cat index.json
