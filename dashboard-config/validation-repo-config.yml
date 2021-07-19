@@ -11,9 +11,9 @@ setup: |
         var obj = validationData[i];
         if(obj.repoName == repo){
           if(obj[checkName]=='Yes')
-            return(🟢)
+            return('Yes')
           else
-            return(🔴)
+            return('No')
         }
       }
     }
