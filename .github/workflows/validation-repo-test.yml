@@ -12,7 +12,7 @@ jobs:
       uses: GH-ACE/action-repo-validation@users/balaga-gayatri/release-patch
       continue-on-error: true
       with:
-        GITHUB_TOKEN: ${{ secrets.PAT_Token }}
+        GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
         repositories: 'login,webapps-deploy'
     - name: create-json
       id: create-json
