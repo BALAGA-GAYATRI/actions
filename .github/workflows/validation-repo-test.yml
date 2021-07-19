@@ -43,12 +43,12 @@ jobs:
         github_token: "${{ secrets.GITHUB_TOKEN }}"
     
     - name: 'Generate validation result in html '
-        id: dashboard
-        uses: GH-ACE/issue-dashboard@v1
-        with:
-          config: ./dashboard-config/validation-repo-config.yml
-          configType: file
-          token: ${{ github.token }}
+      id: dashboard
+      uses: GH-ACE/issue-dashboard@v1
+      with:
+        config: ./dashboard-config/validation-repo-config.yml
+        configType: file
+        token: ${{ github.token }}
 
     - name: validation result and  Commit file for html
       id: commit
