@@ -1,9 +1,9 @@
-import os
-os.system('pip install json2table')
+# import os
+# os.system('pip install json2table')
 import json2table
 import json
 
-infoFromJson = json.loads(jsonfile)
+infoFromJson = json.loads('./index.json')
 build_direction = "LEFT_TO_RIGHT"
 table_attributes = {"style": "width:100%"}
 table = json2table.convert(infoFromJson, 
