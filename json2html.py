@@ -3,7 +3,10 @@
 import json2table
 import json
 
-infoFromJson = json.loads('./index.json')
+f = open('./index.json',)
+  
+data = json.load(f)
+infoFromJson = json.loads(f)
 build_direction = "LEFT_TO_RIGHT"
 table_attributes = {"style": "width:100%"}
 table = json2table.convert(infoFromJson, 
