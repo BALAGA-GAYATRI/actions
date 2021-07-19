@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/BALAGA-GAYATRI/actions/issues"
   },
+  "devDependencies": {
+    "@types/node": "^15.12.4"
+  },
   "homepage": "https://github.com/BALAGA-GAYATRI/actions#readme"
 }
