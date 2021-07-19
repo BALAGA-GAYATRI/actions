@@ -1,0 +1,43 @@
+name: "repo-validation"
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: validating action repos
+      id: checks_validation
+      uses: GH-ACE/action-repo-validation@releases/2
+      continue-on-error: true
+      with:
+        GITHUB_TOKEN: ${{ secrets.PAT_Token }}
+        repositories: 'login,webapps-deploy'
+    - name: create-json
+      id: create-json
+      uses: jsdaniell/create-json@1.1.2
+      with:
+        name: "index.json"
+        json: "${{steps.checks_validation.outputs.validationResult}}"
+    - name: validation result and  Commit file
+      id: commit
+      continue-on-error: true
+      run: |
+           cat index.json
+           git config --local user.email "balaga-gayatri@github.com"
+           git config --local user.name "balaga-gayatri"
+           git pull
+           git add --all
+           if [-z "$(git status --porcelain)"]; then
+             echo "::set-output name=push::false"
+           else
+             git commit -m "Add changes" -a
+             echo "::set-output name=push::true"
+           fi
+      shell: bash
+    - name: Push changes
+      if: steps.commit.outputs.push == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: "${{ secrets.GITHUB_TOKEN }}"
