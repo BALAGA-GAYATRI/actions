@@ -20,5 +20,126 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes"
+	},
+	{
+		"repoName": "aci-deploy",
+		"readmeChecks": "Yes",
+		"codeOwnerCheck": "No",
+		"nodeModulesCheck": "Yes",
+		"branchPermissionCheck": "No",
+		"releasesNodeModulesCheck": "Yes",
+		"vulnerabilityBotCheck": "No",
+		"issueTemplateCheck": "Yes",
+		"standardLabelsCheck": "Yes"
+	},
+	{
+		"repoName": "build-vm-image",
+		"readmeChecks": "Yes",
+		"codeOwnerCheck": "Yes",
+		"nodeModulesCheck": "Yes",
+		"branchPermissionCheck": "No",
+		"releasesNodeModulesCheck": "Yes",
+		"vulnerabilityBotCheck": "No",
+		"issueTemplateCheck": "Yes",
+		"standardLabelsCheck": "Yes"
+	},
+	{
+		"repoName": "functions-action",
+		"readmeChecks": "Yes",
+		"codeOwnerCheck": "No",
+		"nodeModulesCheck": "Yes",
+		"branchPermissionCheck": "No",
+		"releasesNodeModulesCheck": "Yes",
+		"vulnerabilityBotCheck": "No",
+		"issueTemplateCheck": "Yes",
+		"standardLabelsCheck": "Yes"
+	},
+	{
+		"repoName": "functions-container-action",
+		"readmeChecks": "Yes",
+		"codeOwnerCheck": "No",
+		"nodeModulesCheck": "Yes",
+		"branchPermissionCheck": "No",
+		"releasesNodeModulesCheck": "Yes",
+		"vulnerabilityBotCheck": "No",
+		"issueTemplateCheck": "Yes",
+		"standardLabelsCheck": "Yes"
+	},
+	{
+		"repoName": "mysql",
+		"readmeChecks": "Yes",
+		"codeOwnerCheck": "Yes",
+		"nodeModulesCheck": "No",
+		"branchPermissionCheck": "No",
+		"releasesNodeModulesCheck": "Yes",
+		"vulnerabilityBotCheck": "No",
+		"issueTemplateCheck": "Yes",
+		"standardLabelsCheck": "Yes"
+	},
+	{
+		"repoName": "postgresql",
+		"readmeChecks": "Yes",
+		"codeOwnerCheck": "Yes",
+		"nodeModulesCheck": "Yes",
+		"branchPermissionCheck": "No",
+		"releasesNodeModulesCheck": "Yes",
+		"vulnerabilityBotCheck": "No",
+		"issueTemplateCheck": "Yes",
+		"standardLabelsCheck": "Yes"
+	},
+	{
+		"repoName": "powershell",
+		"readmeChecks": "Yes",
+		"codeOwnerCheck": "No",
+		"nodeModulesCheck": "Yes",
+		"branchPermissionCheck": "No",
+		"releasesNodeModulesCheck": "Yes",
+		"vulnerabilityBotCheck": "No",
+		"issueTemplateCheck": "Yes",
+		"standardLabelsCheck": "No"
+	},
+	{
+		"repoName": "sql-action",
+		"readmeChecks": "Yes",
+		"codeOwnerCheck": "Yes",
+		"nodeModulesCheck": "Yes",
+		"branchPermissionCheck": "No",
+		"releasesNodeModulesCheck": "Yes",
+		"vulnerabilityBotCheck": "No",
+		"issueTemplateCheck": "Yes",
+		"standardLabelsCheck": "Yes"
+	},
+	{
+		"repoName": "appservice-settings",
+		"readmeChecks": "Yes",
+		"codeOwnerCheck": "Yes",
+		"nodeModulesCheck": "Yes",
+		"branchPermissionCheck": "No",
+		"releasesNodeModulesCheck": "Yes",
+		"vulnerabilityBotCheck": "No",
+		"issueTemplateCheck": "Yes",
+		"standardLabelsCheck": "Yes"
+	},
+	{
+		"repoName": "variable-substitution",
+		"readmeChecks": "No",
+		"codeOwnerCheck": "No",
+		"nodeModulesCheck": "unknown",
+		"branchPermissionCheck": "unknown",
+		"releasesNodeModulesCheck": "unknown",
+		"vulnerabilityBotCheck": "No",
+		"issueTemplateCheck": "No",
+		"standardLabelsCheck": "No"
+	},
+	{
+		"repoName": "policy-compliance-scan",
+		"readmeChecks": "Yes",
+		"codeOwnerCheck": "No",
+		"nodeModulesCheck": "Yes",
+		"branchPermissionCheck": "No",
+		"releasesNodeModulesCheck": "Yes",
+		"vulnerabilityBotCheck": "No",
+		"issueTemplateCheck": "Yes",
+		"standardLabelsCheck": "Yes"
 	}
 ]
