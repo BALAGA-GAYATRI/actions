@@ -53,7 +53,7 @@ jobs:
       with:
         python-version: '3.9.0-alpha - 3.9.0' # SemVer's version range syntax
     - run: |
-        pip install json2html
+        pip3 install json2html
         python ./json2html.py
 
     - name: validation result and  Commit file for html
