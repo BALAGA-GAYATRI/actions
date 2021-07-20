@@ -13,7 +13,8 @@ jobs:
       continue-on-error: true
       with:
         GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
-        repositories: 'login,webapps-deploy'
+        repositories: 'login,webapps-deploy,aci-deploy,build-vm-image,functions-action,functions-container-action,
+                        mysql,postgresql,powershell,sql-action,appservice-settings,variable-substitution,policy-compliance-scan'
     - name: create-json
       id: create-json
       uses: jsdaniell/create-json@1.1.2
