@@ -1,7 +1,7 @@
 from json2html import *
 # import os
 # os.system('pip install json2table')
-import json2html
+# import json2html
 import json
 
 f = open('./index.json', encoding='utf-8')
