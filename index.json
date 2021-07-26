@@ -9,5 +9,16 @@
 		"vulnerabilityBotCheck": "No",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes"
+	},
+	{
+		"repoName": "webapps-deploy",
+		"readmeChecks": "Yes",
+		"codeOwnerCheck": "Yes",
+		"nodeModulesCheck": "Yes",
+		"branchPermissionCheck": "No",
+		"releasesNodeModulesCheck": "Yes",
+		"vulnerabilityBotCheck": "Yes",
+		"issueTemplateCheck": "Yes",
+		"standardLabelsCheck": "Yes"
 	}
 ]
