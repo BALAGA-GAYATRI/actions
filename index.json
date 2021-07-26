@@ -46,7 +46,7 @@
 	{
 		"repoName": "functions-action",
 		"readmeChecks": "Yes",
-		"codeOwnerCheck": "No",
+		"codeOwnerCheck": "Yes",
 		"nodeModulesCheck": "Yes",
 		"branchPermissionCheck": "No",
 		"releasesNodeModulesCheck": "Yes",
@@ -57,7 +57,7 @@
 	{
 		"repoName": "functions-container-action",
 		"readmeChecks": "Yes",
-		"codeOwnerCheck": "No",
+		"codeOwnerCheck": "Yes",
 		"nodeModulesCheck": "Yes",
 		"branchPermissionCheck": "No",
 		"releasesNodeModulesCheck": "Yes",
