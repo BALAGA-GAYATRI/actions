@@ -13,7 +13,7 @@ jobs:
       continue-on-error: true
       with:
         GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
-        repositories: 'login,webapps-deploy,aci-deploy,build-vm-image,functions-action,functions-container-action,mysql,postgresql,powershell,sql-action,appservice-settings,variable-substitution,policy-compliance-scan,k8s-create-secret,k8s-deploy,k8s-lint,manage-azure-policy,setup-kubectl,aks-set-context,k8s-bake,static-web-apps-deploy,get-keyvault-secrets,AppConfiguration-Sync,k8s-set-context,setup-helm,container-scan,docker-login,publish-security-assessments,arm-deploy,cli'
+        repositories: 'login,webapps-deploy' #,aci-deploy,build-vm-image,functions-action,functions-container-action,mysql,postgresql,powershell,sql-action,appservice-settings,variable-substitution,policy-compliance-scan,k8s-create-secret,k8s-deploy,k8s-lint,manage-azure-policy,setup-kubectl,aks-set-context,k8s-bake,static-web-apps-deploy,get-keyvault-secrets,AppConfiguration-Sync,k8s-set-context,setup-helm,container-scan,docker-login,publish-security-assessments,arm-deploy,cli'
     - name: create-json
       id: create-json
       uses: jsdaniell/create-json@1.1.2
