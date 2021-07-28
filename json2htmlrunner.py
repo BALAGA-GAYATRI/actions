@@ -18,5 +18,20 @@ f = open( 'docs/validation-result.html', 'w' )
 f.write( table )
 f.close()
 f = open('docs/validation-result.html', 'a')  
-f.write("""<link rel="stylesheet" href="validation-result.css" type="text/css" media="all"> """)
+f.write("""<link rel="stylesheet" href="validation-result.css" type="text/css" media="all">
+           <script>
+            window.onload = function color() {
+                console.log('test')
+                var value = document.getElementsByTagName("td");
+                for (var j = 0; j < value.length; j++) {
+                    if (value[j].innerHTML == "No") { 
+                    value[j].style.backgroundColor = "#ff8080";
+                    }
+                    if (value[j].innerHTML == "unknown") { 
+                    value[j].style.backgroundColor = "#fff4a3";
+                    }
+                }
+            }
+            </script>
+         """)
 f.close()
