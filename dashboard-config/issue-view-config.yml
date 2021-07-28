@@ -79,7 +79,7 @@ setup: |
         else if(label === 'Stale' && value>3)
             resultColor='red'
         return resultColor
-  }
+    }
 sections:
 - title: '' 
   widgets:
