@@ -71,7 +71,7 @@ setup: |
       return url
     } 
     userdata.color = async function(value,label) {
-        var resultColor='#FFFFFF'
+        var resultColor='#282A35'
         if((label === '') && (value>5))
             resultColor='red'
         else if((label === 'need-to-triage') && (value>3))
