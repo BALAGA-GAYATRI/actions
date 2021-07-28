@@ -269,7 +269,7 @@ sections:
         url: '{{ userdata.url("Azure/functions-container-action","idle") }}'
       - value: '{{ userdata.count("Azure/functions-container-action","stale") }}'
         url: '{{ userdata.url("Azure/functions-container-action","stale") }}'
-         color: '{{ userdata.color(value,"stale") }}'
+        color: '{{ userdata.color(value,"stale") }}'
       - value: '{{ userdata.count("Azure/functions-container-action","closed") }}'
         url: '{{ userdata.url("Azure/functions-container-action","closed") }}'
         
