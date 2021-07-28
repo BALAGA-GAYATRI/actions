@@ -134,6 +134,7 @@ sections:
         color: '{{ userdata.url(value,"need-to-triage") }}'
       - value: '{{ userdata.count("Azure/webapps-deploy","enhancement") }}'
         url: '{{ userdata.url("Azure/webapps-deploy","enhancement") }}'
+        color: 'red'
       - value: '{{ userdata.count("Azure/webapps-deploy","question") }}'
         url: '{{ userdata.url("Azure/webapps-deploy","question") }}'
       - value: '{{ userdata.count("Azure/webapps-deploy","bug") }}'
