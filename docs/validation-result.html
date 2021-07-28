@@ -4,12 +4,15 @@
         var value = document.getElementsByTagName("td");
         for (var j = 0; j < value.length; j++) {
             if (value[j].innerHTML == "No") { 
-             value[j].style.backgroundColor = "red";
+             value[j].style.backgroundColor = "#ff8080";
+            }
+            if (value[j].innerHTML == "Unknown") { 
+             value[j].style.backgroundColor = "#bfbfbf";
             }
         }
     }
 </script>
-<table onload="color()">
+<table border="1">
   <thead>
     <tr>
       <th>repoName</th>
