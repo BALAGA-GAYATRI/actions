@@ -191,7 +191,7 @@
 		"readmeChecks": "Yes",
 		"codeOwnerCheck": "Access reqd",
 		"nodeModulesCheck": "No",
-		"branchPermissionCheck": "Yes",
+		"branchPermissionCheck": "Access reqd",
 		"releasesNodeModulesCheck": "Yes",
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
