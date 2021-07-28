@@ -72,11 +72,11 @@ setup: |
     } 
     userdata.color = async function(value,label) {
         val resultColor='#FFFFFF';
-        if(label === 'Open (excl. enhancements)' && value>5)
+        if(label === '' && value>5)
             resultColor='red'
-        else if(label === 'Need-to-triage' && value>3)
+        else if(label === 'need-to-triage' && value>3)
             resultColor='yellow'
-        else if(label === 'Stale' && value>3)
+        else if(label === 'stale' && value>3)
             resultColor='red'
         return resultColor
     }
@@ -128,10 +128,10 @@ sections:
     - - value: 'webapps-deploy'
       - value: '{{ userdata.count("Azure/webapps-deploy","") }}'
         url: '{{ userdata.url("Azure/webapps-deploy","") }}'
-        color: '{{ userdata.url(value) }}'
+        color: '{{ userdata.url(value,"") }}'
       - value: '10' #'{{ userdata.count("Azure/webapps-deploy","need-to-triage") }}'
         url: '{{ userdata.url("Azure/webapps-deploy","need-to-triage") }}'
-        color: '{{ userdata.url(value) }}'
+        color: '{{ userdata.url(value,"need-to-triage") }}'
       - value: '{{ userdata.count("Azure/webapps-deploy","enhancement") }}'
         url: '{{ userdata.url("Azure/webapps-deploy","enhancement") }}'
       - value: '{{ userdata.count("Azure/webapps-deploy","question") }}'
