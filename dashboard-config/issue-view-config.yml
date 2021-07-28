@@ -71,12 +71,12 @@ setup: |
       return url
     } 
     userdata.color = async function(value,label) {
-        val resultColor='#FFFFFF';
-        if(label === '' && value>5)
+        var resultColor='#FFFFFF'
+        if((label === '') && (value>5))
             resultColor='red'
-        else if(label === 'need-to-triage' && value>3)
+        else if((label === 'need-to-triage') && (value>3))
             resultColor='yellow'
-        else if(label === 'stale' && value>3)
+        else if((label === 'stale') && (value>3))
             resultColor='red'
         return resultColor
     }
