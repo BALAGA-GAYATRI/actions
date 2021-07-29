@@ -4,7 +4,7 @@
 		"readmeChecks": "Yes",
 		"codeOwnerCheck": "Access reqd",
 		"nodeModulesCheck": "Access reqd",
-		"branchPermissionCheck": "Access reqd",
+		"branchPermissionCheck": "Yes",
 		"releasesNodeModulesCheck": "Yes",
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
@@ -128,8 +128,8 @@
 		"branchPermissionCheck": "unknown",
 		"releasesNodeModulesCheck": "Access reqd",
 		"vulnerabilityBotCheck": "Access reqd",
-		"issueTemplateCheck": "Access Reqd",
-		"standardLabelsCheck": "Access Reqd"
+		"issueTemplateCheck": "Access reqd",
+		"standardLabelsCheck": "Access reqd"
 	},
 	{
 		"repoName": "policy-compliance-scan",
@@ -172,7 +172,7 @@
 		"branchPermissionCheck": "Access reqd",
 		"releasesNodeModulesCheck": "Yes",
 		"vulnerabilityBotCheck": "Yes",
-		"issueTemplateCheck": "Access Reqd",
+		"issueTemplateCheck": "Access reqd",
 		"standardLabelsCheck": "Yes"
 	},
 	{
@@ -191,7 +191,7 @@
 		"readmeChecks": "Yes",
 		"codeOwnerCheck": "Access reqd",
 		"nodeModulesCheck": "No",
-		"branchPermissionCheck": "Yes",
+		"branchPermissionCheck": "Access reqd",
 		"releasesNodeModulesCheck": "Yes",
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
@@ -227,7 +227,7 @@
 		"branchPermissionCheck": "Access reqd",
 		"releasesNodeModulesCheck": "unknown",
 		"vulnerabilityBotCheck": "Access reqd",
-		"issueTemplateCheck": "Access Reqd",
+		"issueTemplateCheck": "Access reqd",
 		"standardLabelsCheck": "No"
 	},
 	{
@@ -235,7 +235,7 @@
 		"readmeChecks": "Yes",
 		"codeOwnerCheck": "Access reqd",
 		"nodeModulesCheck": "Access reqd",
-		"branchPermissionCheck": "Yes",
+		"branchPermissionCheck": "Access reqd",
 		"releasesNodeModulesCheck": "Yes",
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
@@ -312,7 +312,7 @@
 		"readmeChecks": "Yes",
 		"codeOwnerCheck": "Yes",
 		"nodeModulesCheck": "Access reqd",
-		"branchPermissionCheck": "Access reqd",
+		"branchPermissionCheck": "Yes",
 		"releasesNodeModulesCheck": "No",
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
