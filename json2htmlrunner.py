@@ -28,7 +28,7 @@ f.write("""<link rel="stylesheet" href="validation-result.css" type="text/css" m
                     value[j].style.backgroundColor = "#ff8080";
                     }
                     if (value[j].innerHTML == "Access reqd") { 
-                    value[j].style.backgroundColor = "#fff4a3";
+                    value[j].style.backgroundColor = "#ffffcc";
                     }
                 }
             }
