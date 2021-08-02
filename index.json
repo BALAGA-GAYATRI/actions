@@ -1,13 +1,13 @@
 [
 	{
 		"repoName": "variable-substitution",
-		"readmeChecks": "Access reqd",
-		"codeOwnerCheck": "Access reqd",
-		"nodeModulesCheck": "Access reqd",
+		"readmeChecks": "unknown",
+		"codeOwnerCheck": "unknown",
+		"nodeModulesCheck": "unknown",
 		"branchPermissionCheck": "unknown",
-		"releasesNodeModulesCheck": "Access reqd",
-		"vulnerabilityBotCheck": "Access reqd",
-		"issueTemplateCheck": "Access reqd",
-		"standardLabelsCheck": "Access reqd"
+		"releasesNodeModulesCheck": "unknown",
+		"vulnerabilityBotCheck": "unknown",
+		"issueTemplateCheck": "unknown",
+		"standardLabelsCheck": "unknown"
 	}
 ]
