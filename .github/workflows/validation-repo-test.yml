@@ -18,7 +18,7 @@ jobs:
       id: create-json
       uses: jsdaniell/create-json@1.1.2
       with:
-        name: "index.json"
+        name: "validation-dashboard/result.json"
         json: "${{steps.checks_validation.outputs.validationResult}}"
     - name: validation result and  Commit file
       id: commit1
