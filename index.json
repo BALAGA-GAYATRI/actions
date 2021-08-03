@@ -25,7 +25,7 @@
 		"repoName": "aci-deploy",
 		"readme": "Yes",
 		"codeOwner": "Access reqd",
-		"branchPermission": "Access reqd",
+		"branchPermission": "Yes",
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
