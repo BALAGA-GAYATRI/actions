@@ -25,14 +25,16 @@ f.write("""<link rel="stylesheet" href="validation-result.css" type="text/css" m
                 var value = document.getElementsByTagName("td");
                 for (var j = 0; j < value.length; j++) {
                     if (value[j].innerHTML == "No") { 
-                    value[j].style.backgroundColor = "#ff8080";
+                        value[j].style.backgroundColor = "#ff8080";
                     }
                     if (value[j].innerHTML == "Access reqd") { 
-                    value[j].style.backgroundColor = "#ffffcc";
+                        value[j].style.backgroundColor = "#ffffcc";
+                    }
+                    if (value[j].innerHTML == "NA") { 
+                        value[j].style.backgroundColor = "#7f7f7f";
                     }
                 }
             }
             </script>
-            <p> Note : These are the <a href="https://github.com/Azure/actions/blob/main/docs/validations-action-repo.md"> validations </a> against which the action repositories are tested. </p>
          """)
 f.close()
