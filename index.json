@@ -3,14 +3,13 @@
 		"repoName": "login",
 		"readmeChecks": "Yes",
 		"codeOwnerCheck": "Access reqd",
-		"branchPermissionCheck": "Yes",
+		"branchPermissionCheck": "Access reqd",
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "webapps-deploy",
@@ -20,23 +19,21 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "aci-deploy",
 		"readmeChecks": "Yes",
 		"codeOwnerCheck": "Access reqd",
-		"branchPermissionCheck": "Yes",
+		"branchPermissionCheck": "Access reqd",
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "build-vm-image",
@@ -46,10 +43,9 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "functions-action",
@@ -59,10 +55,9 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "functions-container-action",
@@ -72,10 +67,9 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "mysql",
@@ -87,8 +81,8 @@
 		"standardLabelsCheck": "Yes",
 		"nodeModulesCheck(.TS)": "unknown",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "No",
-		"releasesNodeModulesCheck": "Yes"
+		"(nodeModulesCheck(.TS))": "No",
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "postgresql",
@@ -98,10 +92,9 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "powershell",
@@ -111,10 +104,9 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "No",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "sql-action",
@@ -124,10 +116,9 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "appservice-settings",
@@ -137,10 +128,9 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "variable-substitution",
@@ -150,10 +140,9 @@
 		"vulnerabilityBotCheck": "Access reqd",
 		"issueTemplateCheck": "Access reqd",
 		"standardLabelsCheck": "Access reqd",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Access reqd"
+		"releasesnodeModulesCheck(.TS)": "Access reqd"
 	},
 	{
 		"repoName": "policy-compliance-scan",
@@ -165,8 +154,8 @@
 		"standardLabelsCheck": "Yes",
 		"nodeModulesCheck(.TS)": "unknown",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "No",
-		"releasesNodeModulesCheck": "Yes"
+		"(nodeModulesCheck(.TS))": "No",
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "k8s-create-secret",
@@ -176,10 +165,9 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "k8s-deploy",
@@ -189,10 +177,9 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "k8s-lint",
@@ -202,10 +189,9 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Access reqd",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "manage-azure-policy",
@@ -215,10 +201,9 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "setup-kubectl",
@@ -230,8 +215,8 @@
 		"standardLabelsCheck": "Yes",
 		"nodeModulesCheck(.TS)": "unknown",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "No",
-		"releasesNodeModulesCheck": "Yes"
+		"(nodeModulesCheck(.TS))": "No",
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "aks-set-context",
@@ -241,10 +226,9 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "k8s-bake",
@@ -254,10 +238,9 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "static-web-apps-deploy",
@@ -267,9 +250,8 @@
 		"vulnerabilityBotCheck": "Access reqd",
 		"issueTemplateCheck": "Access reqd",
 		"standardLabelsCheck": "No",
-		"nodeModulesCheck(.TS)": "unknown",
-		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "NA"
+		"nodeModulesCheck(.TS)": "NA",
+		"releasesNodeModulesCheck(.TS)": "unknown"
 	},
 	{
 		"repoName": "get-keyvault-secrets",
@@ -279,10 +261,9 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "AppConfiguration-Sync",
@@ -292,9 +273,8 @@
 		"vulnerabilityBotCheck": "Access reqd",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
-		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "NA"
+		"nodeModulesCheck(.TS)": "NA",
+		"releasesNodeModulesCheck(.TS)": "unknown"
 	},
 	{
 		"repoName": "k8s-set-context",
@@ -304,10 +284,9 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "setup-helm",
@@ -317,10 +296,9 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "container-scan",
@@ -330,10 +308,9 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "docker-login",
@@ -343,10 +320,9 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "publish-security-assessments",
@@ -356,23 +332,21 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "Yes"
+		"releasesnodeModulesCheck(.TS)": "Yes"
 	},
 	{
 		"repoName": "arm-deploy",
 		"readmeChecks": "Yes",
 		"codeOwnerCheck": "Yes",
-		"branchPermissionCheck": "Yes",
+		"branchPermissionCheck": "Access reqd",
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "No"
+		"releasesnodeModulesCheck(.TS)": "No"
 	},
 	{
 		"repoName": "cli",
@@ -382,9 +356,8 @@
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
 		"standardLabelsCheck": "Yes",
-		"nodeModulesCheck(.TS)": "unknown",
+		"nodeModulesCheck(.TS)": "Access reqd",
 		"releasesNodeModulesCheck(.TS)": "unknown",
-		"nodeModulesCheck": "Access reqd",
-		"releasesNodeModulesCheck": "No"
+		"releasesnodeModulesCheck(.TS)": "No"
 	}
 ]
