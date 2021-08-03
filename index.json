@@ -7,8 +7,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -19,20 +19,20 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
 		"repoName": "aci-deploy",
 		"readme": "unknown",
 		"codeOwner": "Access reqd",
-		"branchPermission": "Access reqd",
+		"branchPermission": "Yes",
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -43,8 +43,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -55,8 +55,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -67,8 +67,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -80,8 +80,9 @@
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
 		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
-		"readmes": "Yes"
+		"releasesNodeModules(.TS)": "Yes",
+		"readmes": "Yes",
+		"(nodeModules(.TS))": "No"
 	},
 	{
 		"repoName": "postgresql",
@@ -91,8 +92,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -103,8 +104,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "No",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -115,8 +116,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -127,8 +128,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -139,8 +140,8 @@
 		"vulnerabilityBot": "Access reqd",
 		"issueTemplate": "Access reqd",
 		"standardLabels": "Access reqd",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Access reqd",
 		"readmes": "Access reqd"
 	},
 	{
@@ -152,8 +153,9 @@
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
 		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
-		"readmes": "Yes"
+		"releasesNodeModules(.TS)": "Yes",
+		"readmes": "Yes",
+		"(nodeModules(.TS))": "No"
 	},
 	{
 		"repoName": "k8s-create-secret",
@@ -163,8 +165,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -175,8 +177,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -187,8 +189,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Access reqd",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -199,8 +201,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -212,8 +214,9 @@
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
 		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
-		"readmes": "Yes"
+		"releasesNodeModules(.TS)": "Yes",
+		"readmes": "Yes",
+		"(nodeModules(.TS))": "No"
 	},
 	{
 		"repoName": "aks-set-context",
@@ -223,8 +226,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -235,8 +238,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -247,20 +250,20 @@
 		"vulnerabilityBot": "Access reqd",
 		"issueTemplate": "Access reqd",
 		"standardLabels": "No",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "NA",
+		"releasesNodeModules(.TS)": "NA",
 		"readmes": "Yes"
 	},
 	{
 		"repoName": "get-keyvault-secrets",
 		"readme": "unknown",
 		"codeOwner": "Access reqd",
-		"branchPermission": "Access reqd",
+		"branchPermission": "Yes",
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -271,8 +274,8 @@
 		"vulnerabilityBot": "Access reqd",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "NA",
 		"readmes": "Yes"
 	},
 	{
@@ -283,8 +286,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -295,8 +298,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -307,8 +310,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -319,8 +322,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -331,8 +334,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Yes",
 		"readmes": "Yes"
 	},
 	{
@@ -343,8 +346,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "No",
 		"readmes": "Yes"
 	},
 	{
@@ -355,8 +358,8 @@
 		"vulnerabilityBot": "Yes",
 		"issueTemplate": "Yes",
 		"standardLabels": "Yes",
-		"nodeModules(.TS)": "unknown",
-		"releasesNodeModules(.TS)": "unknown",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "No",
 		"readmes": "Yes"
 	}
 ]
