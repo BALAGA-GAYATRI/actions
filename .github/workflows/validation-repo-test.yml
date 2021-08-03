@@ -60,7 +60,6 @@ jobs:
       id: commit2
       continue-on-error: true
       run: |
-           cat index.json
            git config --local user.email "balaga-gayatri@github.com"
            git config --local user.name "balaga-gayatri"
            git pull
