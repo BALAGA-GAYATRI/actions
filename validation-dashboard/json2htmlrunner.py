@@ -5,7 +5,7 @@ from json2html import *
 
 import json
 
-f = open('./index.json', encoding='utf-8')
+f = open('./validation-dashboard/result.json', encoding='utf-8')
   
 infoFromJson = json.load(f)
 build_direction = "LEFT_TO_RIGHT"
