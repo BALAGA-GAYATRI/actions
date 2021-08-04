@@ -9,5 +9,16 @@
 		"standardLabels": "Yes",
 		"nodeModules(.TS)": "Access reqd",
 		"releasesNodeModules(.TS)": "Yes"
+	},
+	{
+		"repoName": "variable-substitution",
+		"readme": "Access reqd",
+		"codeOwner": "Access reqd",
+		"branchPermission": "Access reqd",
+		"vulnerabilityBot": "Access reqd",
+		"issueTemplate": "Access reqd",
+		"standardLabels": "Access reqd",
+		"nodeModules(.TS)": "Access reqd",
+		"releasesNodeModules(.TS)": "Access reqd"
 	}
 ]
