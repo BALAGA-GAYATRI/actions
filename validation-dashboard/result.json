@@ -7,7 +7,7 @@
 		"vulnerabilityBot": "Access reqd",
 		"issueTemplate": "fail",
 		"standardLabels": "Access reqd",
-		"nodeModules(.TS)": "Access reqd",
-		"releasesnodeModules(.TS)": "Access reqd"
+		"nodeModules(.TS)": "Access reqd2",
+		"releasesnodeModules(.TS)": "Access reqd2"
 	}
 ]
