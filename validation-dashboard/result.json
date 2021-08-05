@@ -1,13 +1,13 @@
 [
 	{
-		"repoName": "variable-substitution",
-		"readme": "fail",
-		"codeOwner": "fail",
-		"branchPermission": "Access reqd",
-		"vulnerabilityBot": "Access reqd",
-		"issueTemplate": "fail",
-		"standardLabels": "Access reqd",
-		"nodeModules(.TS)": "Access reqd2",
-		"releasesnodeModules(.TS)": "Access reqd2"
+		"repoName": "webapps-deploy",
+		"readme": "pass",
+		"codeOwner": "pass",
+		"branchPermission": "pass",
+		"vulnerabilityBot": "pass",
+		"issueTemplate": "pass",
+		"standardLabels": "pass",
+		"nodeModules(.TS)": "pass",
+		"releasesnodeModules(.TS)": "pass"
 	}
 ]
