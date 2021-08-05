@@ -3,7 +3,7 @@
 		"repoName": "login",
 		"readme": "pass",
 		"codeOwner": "fail",
-		"branchPermission": "pass",
+		"branchPermission": "Access reqd",
 		"vulnerabilityBot": "pass",
 		"issueTemplate": "pass",
 		"standardLabels": "pass",
