@@ -324,7 +324,7 @@
 		"codeOwner": "fail",
 		"branchPermission": "fail",
 		"vulnerabilityBot": "pass",
-		"issueTemplate": "fail",
+		"issueTemplate": "pass",
 		"standardLabels": "pass",
 		"nodeModules(.TS)": "pass",
 		"releasesnodeModules(.TS)": "fail"
