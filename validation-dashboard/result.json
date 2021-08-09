@@ -1,7 +1,7 @@
 [
 	{
 		"repoName": "login",
-		"readme": "fail",
+		"readme": "pass",
 		"codeOwner": "pass",
 		"branchPermission": "fail",
 		"vulnerabilityBot": "pass",
@@ -25,7 +25,7 @@
 		"repoName": "aci-deploy",
 		"readme": "pass",
 		"codeOwner": "pass",
-		"branchPermission": "pass",
+		"branchPermission": "fail",
 		"vulnerabilityBot": "pass",
 		"issueTemplate": "fail",
 		"standardLabels": "pass",
@@ -34,7 +34,7 @@
 	},
 	{
 		"repoName": "build-vm-image",
-		"readme": "fail",
+		"readme": "pass",
 		"codeOwner": "pass",
 		"branchPermission": "fail",
 		"vulnerabilityBot": "pass",
@@ -89,7 +89,7 @@
 	},
 	{
 		"repoName": "powershell",
-		"readme": "fail",
+		"readme": "pass",
 		"codeOwner": "pass",
 		"branchPermission": "fail",
 		"vulnerabilityBot": "pass",
@@ -111,7 +111,7 @@
 	},
 	{
 		"repoName": "appservice-settings",
-		"readme": "fail",
+		"readme": "pass",
 		"codeOwner": "pass",
 		"branchPermission": "pass",
 		"vulnerabilityBot": "pass",
@@ -133,7 +133,7 @@
 	},
 	{
 		"repoName": "policy-compliance-scan",
-		"readme": "fail",
+		"readme": "pass",
 		"codeOwner": "fail",
 		"branchPermission": "fail",
 		"vulnerabilityBot": "pass",
@@ -177,7 +177,7 @@
 	},
 	{
 		"repoName": "manage-azure-policy",
-		"readme": "fail",
+		"readme": "pass",
 		"codeOwner": "fail",
 		"branchPermission": "fail",
 		"vulnerabilityBot": "pass",
@@ -190,7 +190,7 @@
 		"repoName": "setup-kubectl",
 		"readme": "fail",
 		"codeOwner": "fail",
-		"branchPermission": "pass",
+		"branchPermission": "fail",
 		"vulnerabilityBot": "pass",
 		"issueTemplate": "pass",
 		"standardLabels": "pass",
@@ -232,7 +232,7 @@
 	},
 	{
 		"repoName": "get-keyvault-secrets",
-		"readme": "fail",
+		"readme": "pass",
 		"codeOwner": "fail",
 		"branchPermission": "pass",
 		"vulnerabilityBot": "pass",
@@ -298,7 +298,7 @@
 	},
 	{
 		"repoName": "publish-security-assessments",
-		"readme": "fail",
+		"readme": "pass",
 		"codeOwner": "fail",
 		"branchPermission": "fail",
 		"vulnerabilityBot": "pass",
@@ -311,7 +311,7 @@
 		"repoName": "arm-deploy",
 		"readme": "pass",
 		"codeOwner": "pass",
-		"branchPermission": "fail",
+		"branchPermission": "pass",
 		"vulnerabilityBot": "pass",
 		"issueTemplate": "fail",
 		"standardLabels": "pass",
